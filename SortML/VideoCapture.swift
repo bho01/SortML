@@ -2,13 +2,11 @@
 //  VideoCapture.swift
 //  SortML
 //
-<<<<<<< HEAD
+
 //  Created by Brendon Ho on 4/21/18.
 //  Copyright © 2018 ARgon. All rights reserved.
-=======
-//  Created by Brendon Ho on 2/5/18.
-//  Copyright © 2018 Mengo. All rights reserved.
->>>>>>> 10f3e36dd855ef45d13b0eb9a1022401132281e1
+
+
 //
 
 import UIKit

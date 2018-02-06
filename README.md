@@ -15,6 +15,6 @@ Here is how SortML works:
 
 You can download this project and try it if you want.
 
-![alt tag](https://github.com/bho01/SortML/blob/master/IMG_0261.PNG.png)
+![alt tag](https://github.com/bho01/SortML/blob/master/IMG_0261.PNG)
 
-![alt tag](https://github.com/bho01/SortML/blob/master/IMG_0262.PNG.png)
+![alt tag](https://github.com/bho01/SortML/blob/master/IMG_0262.PNG)
