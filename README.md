@@ -14,3 +14,7 @@ Here is how SortML works:
 * The output is given and shows the user if the item is recyclable or not.
 
 You can download this project and try it if you want.
+
+![alt tag](https://github.com/ClevererMango27/Goalr/blob/master/IMG_0261.PNG.png)
+
+![alt tag](https://github.com/ClevererMango27/Goalr/blob/master/IMG_0262.PNG.png)
