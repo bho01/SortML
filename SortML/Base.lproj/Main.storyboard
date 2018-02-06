@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SortML" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="syB-PS-zL8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-gM-Wke">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg3-np-p3T">
+                                                <rect key="frame" x="169.5" y="35" width="36.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <color key="textColor" red="0.97560432417139953" green="1" blue="0.97657503892437936" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Hg3-np-p3T" firstAttribute="centerX" secondItem="JFb-gM-Wke" secondAttribute="centerX" id="lGG-y3-kJo"/>
+                                            <constraint firstItem="Hg3-np-p3T" firstAttribute="top" secondItem="JFb-gM-Wke" secondAttribute="top" constant="35" id="rn2-hm-XyX"/>
+                                        </constraints>
+                                    </view>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cB7-j7-1L7">
+                                        <rect key="frame" x="87" y="300" width="201" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="MYB-L5-nra">
+                                            <rect key="frame" x="0.0" y="0.0" width="201" height="66"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-SB-ahy">
+                                                    <rect key="frame" x="0.0" y="0.0" width="201" height="66"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="snU-ke-Dcy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="201" height="66"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    </view>
+                                                    <vibrancyEffect>
+                                                        <blurEffect style="light"/>
+                                                    </vibrancyEffect>
+                                                </visualEffectView>
+                                            </subviews>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-a3-yZq">
+                                        <rect key="frame" x="33" y="306" width="309" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="309" id="Ghg-wt-lgV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="40"/>
+                                        <color key="textColor" red="0.0" green="0.77647058823529413" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rtN-a3-yZq" firstAttribute="centerX" secondItem="syB-PS-zL8" secondAttribute="centerX" id="3xi-Ko-svX"/>
+                                    <constraint firstItem="rtN-a3-yZq" firstAttribute="centerY" secondItem="syB-PS-zL8" secondAttribute="centerY" id="8dv-Zd-l0k"/>
+                                    <constraint firstItem="JFb-gM-Wke" firstAttribute="centerY" secondItem="syB-PS-zL8" secondAttribute="centerY" id="emy-0y-Buu"/>
+                                    <constraint firstItem="JFb-gM-Wke" firstAttribute="centerX" secondItem="syB-PS-zL8" secondAttribute="centerX" id="gG6-JF-i7d"/>
+                                    <constraint firstItem="JFb-gM-Wke" firstAttribute="leading" secondItem="syB-PS-zL8" secondAttribute="leading" id="t1X-54-RTN"/>
+                                    <constraint firstAttribute="trailing" secondItem="JFb-gM-Wke" secondAttribute="trailing" id="v5E-Nm-4aW"/>
+                                    <constraint firstItem="JFb-gM-Wke" firstAttribute="top" secondItem="syB-PS-zL8" secondAttribute="top" id="vVU-kZ-wVt"/>
+                                    <constraint firstItem="rtN-a3-yZq" firstAttribute="centerX" secondItem="syB-PS-zL8" secondAttribute="centerX" id="ybs-9M-hK7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="syB-PS-zL8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="F3t-B6-Hc5"/>
+                            <constraint firstItem="syB-PS-zL8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XQr-ge-o4S"/>
+                            <constraint firstAttribute="trailing" secondItem="syB-PS-zL8" secondAttribute="trailing" id="mEC-Tf-nzD"/>
+                            <constraint firstItem="syB-PS-zL8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vh1-Zh-JmB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="blue" destination="rtN-a3-yZq" id="T74-CQ-fIZ"/>
+                        <outlet property="itemLabel" destination="Hg3-np-p3T" id="hYF-Qe-N1s"/>
+                        <outlet property="predictionLabel" destination="rtN-a3-yZq" id="Qz4-GG-pCw"/>
+                        <outlet property="videoPreview" destination="JFb-gM-Wke" id="TSc-BU-Yoe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
