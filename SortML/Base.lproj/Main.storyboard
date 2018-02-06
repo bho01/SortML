@@ -31,8 +31,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg3-np-p3T">
+<<<<<<< HEAD
                                                 <rect key="frame" x="169.5" y="35" width="36.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+=======
+                                                <rect key="frame" x="167.5" y="35" width="41.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+>>>>>>> 10f3e36dd855ef45d13b0eb9a1022401132281e1
                                                 <color key="textColor" red="0.97560432417139953" green="1" blue="0.97657503892437936" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -43,6 +48,7 @@
                                             <constraint firstItem="Hg3-np-p3T" firstAttribute="top" secondItem="JFb-gM-Wke" secondAttribute="top" constant="35" id="rn2-hm-XyX"/>
                                         </constraints>
                                     </view>
+<<<<<<< HEAD
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cB7-j7-1L7">
                                         <rect key="frame" x="87" y="300" width="201" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -65,6 +71,8 @@
                                         </view>
                                         <blurEffect style="light"/>
                                     </visualEffectView>
+=======
+>>>>>>> 10f3e36dd855ef45d13b0eb9a1022401132281e1
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-a3-yZq">
                                         <rect key="frame" x="33" y="306" width="309" height="55"/>
                                         <constraints>
@@ -98,7 +106,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="blue" destination="rtN-a3-yZq" id="T74-CQ-fIZ"/>
+=======
+>>>>>>> 10f3e36dd855ef45d13b0eb9a1022401132281e1
                         <outlet property="itemLabel" destination="Hg3-np-p3T" id="hYF-Qe-N1s"/>
                         <outlet property="predictionLabel" destination="rtN-a3-yZq" id="Qz4-GG-pCw"/>
                         <outlet property="videoPreview" destination="JFb-gM-Wke" id="TSc-BU-Yoe"/>
